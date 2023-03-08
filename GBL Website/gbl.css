@@ -175,4 +175,8 @@ footer{
 .lap hr{
   background-color: rgb(7, 83, 0);
 }
-
+@media screen and (max-width: 600px) {
+  .lap, .fifthimages {
+    width: 100%;
+  }
+}
