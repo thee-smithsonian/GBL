@@ -191,6 +191,9 @@ footer{
   width: 250px;
   font-size: 20px;
   }
+  h4{
+    font-family: 60px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -203,6 +206,9 @@ footer{
   }
   h1{
     font-size: 25px;
+  }
+  h4{
+    font-family: 30px;
   }
 }
 
