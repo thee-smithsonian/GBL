@@ -189,20 +189,20 @@ footer{
   .lap{
   height: 280px;
   width: 250px;
-  font-size: 15px;
+  font-size: 20px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .topnav a {
     font-size: 17px;
-    padding: 10px 11px;
+    padding: 10px 9px;
 }
   .para{
     font-size: 14px;
   }
   h1{
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
