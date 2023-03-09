@@ -198,4 +198,15 @@ footer{
     font-size: 17px;
     padding: 10px 11px;
 }
+  .para{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 20px;
+  }
+}
+
+.para{
+  font-family: 'Barlow', sans-serif;
+  margin: 1% 5%;
 }
