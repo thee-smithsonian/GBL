@@ -63,6 +63,11 @@ h4{
   margin-top: 150px;
 }
 
+h5{
+  font-size: 40px;
+  color: rgb(22, 121, 30);
+}
+
 /* Paragraphs */
 p{
     font-size: 18px;
@@ -194,6 +199,9 @@ footer{
   h4{
     font-family: 60px;
   }
+  h5{
+    font-size: 45px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -208,11 +216,51 @@ footer{
     font-size: 25px;
   }
   h4{
-    font-family: 30px;
+    font-size: 30px;
+  }
+  h5{
+    font-size: 30px;
   }
 }
 
 .para{
   font-family: 'Barlow', sans-serif;
   margin: 1% 5%;
+}
+
+/* Social media icons and links */
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 3px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #2c4a8b;
+  color: white;
+  border-radius: 100px;
+  
+}
+
+.fa-twitter {
+  background: #39a7fa;
+  color: white;
+  border-radius: 100px;
+}
+
+.fa-instagram {
+  background: rgb(247, 0, 62);
+  color: rgb(255, 255, 255);
+  border-radius: 100px;
+}
+
+.social{
+  margin-left: 4%;
 }
