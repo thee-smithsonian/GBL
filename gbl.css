@@ -67,6 +67,11 @@ h5{
   font-size: 40px;
   color: rgb(22, 121, 30);
 }
+h6{
+  font-size: 40px;
+  color: rgb(22, 121, 30);
+  margin-left: 5%;
+}
 
 /* Paragraphs */
 p{
@@ -202,6 +207,9 @@ footer{
   h5{
     font-size: 45px;
   }
+  h6{
+    font-size: 45px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -212,8 +220,8 @@ footer{
   .para{
     font-size: 16px;
   }
-  h1{
-    font-size: 25px;
+  h6{
+    font-size: 30px;
   }
   h4{
     font-size: 30px;
