@@ -9,8 +9,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:ital@1&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="gbl.css">
+
     </head>
-      <body>
+      <body style="box-sizing: border-box;">
         <div class="topnav">
             <a class="active" href="index.html">Home</a>
             <a href="aboutus.html">About Us</a>
@@ -37,7 +38,7 @@
 
   <div class="mySlides fade">
     <div class="numbertext">1 / 5</div>
-    <img src="Bakery.jpg" style="width:100%">
+    <img src="bakery.jpg" style="width:100%">
     <div class="text">Bakery</div>
   </div>
   
@@ -78,36 +79,36 @@
     <span class="dot" onclick="currentSlide(4)"></span> 
     <span class="dot" onclick="currentSlide(5)"></span> 
   </div>
-  
-  <script>
-  let slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-  </script>
 
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+  
         <h3>Our Mission</h3>
         <p class="mission">"To induce creativity"</p>
         <p class="mission">"To promote innovation"</p>
