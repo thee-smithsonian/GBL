@@ -149,9 +149,9 @@ footer{
     padding: 2% 20%;
 }
 
-.certify{
-    width: 65%;
-    padding: 3% 17%;
+.flyer {
+  width: 100%;
+  padding: 3% 15%;
 }
 
 /* Courses */
@@ -193,6 +193,7 @@ footer{
   background-color: rgb(7, 83, 0);
 }
 
+/* Media Query */
 @media screen and (max-width: 950px) {
   .fifthimages {
     width: 245px;
@@ -256,12 +257,6 @@ footer{
   color: white;
   border-radius: 100px;
   
-}
-
-.fa-twitter {
-  background: #39a7fa;
-  color: white;
-  border-radius: 100px;
 }
 
 .fa-instagram {
