@@ -231,11 +231,26 @@ footer{
   h5{
     font-size: 30px;
   }
-}
 
-.para{
-  font-family: 'Barlow', sans-serif;
-  margin: 1% 5%;
+  .para{
+    font-family: 'Barlow', sans-serif;
+    margin: 1% 5%;
+  }
+  
+  .cards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cards li {
+    position: relative;
+    vertical-align: middle;
+    width: 12rem;
+    height: 6rem;
+    margin: 1%;
+  }
+  
 }
 
 /* Social media icons and links */
@@ -358,4 +373,41 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+/* Gallery */
+.cards {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  width: 100%;
+  list-style: none;
+  transform: translateY(-50%) translateX(-51.5%);
+  margin-top: 15%;
+}
+
+.cards li {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  width: 16rem;
+  height: 9rem;
+  transition-duration: .5s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cards li .card-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center top;
+}
+
+.cards li:hover {
+  transition-delay: .5s;
+  width: 30rem;
+  height: 18rem;
 }
