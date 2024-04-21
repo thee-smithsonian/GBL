@@ -249,6 +249,15 @@ footer{
   h6{
     font-size: 35px;
   }
+  .cards {
+    margin-top: 50%;
+  }
+  .cards li{
+    margin-bottom: 1%;
+    transform: translateX(-5%);
+    width: 20rem;
+    height: 12rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
