@@ -193,6 +193,43 @@ footer{
   background-color: rgb(7, 83, 0);
 }
 
+/* Gallery */
+.cards {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  width: 100%;
+  list-style: none;
+  transform: translateY(-80%) translateX(-51.5%);
+  margin-top: 18rem;
+}
+
+.cards li {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  width: 16rem;
+  height: 9rem;
+  transition-duration: .5s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cards li .card-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center top;
+}
+
+.cards li:hover {
+  transition-delay: .5s;
+  width: 30rem;
+  height: 18rem;
+}
+
 /* Media Query */
 @media screen and (max-width: 950px) {
   .fifthimages {
@@ -232,7 +269,7 @@ footer{
     font-size: 30px;
   }
   h2{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .para{
@@ -240,20 +277,21 @@ footer{
     margin: 1% 5%;
   }
   
+  .container{
+    margin-top: 10%;
+  }
   .cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    transform: translateY(-40%) translateX(-57%);
   }
   
   .cards li {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding: 2%;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
-  width: 12rem;
-  height: 6rem;
+  width: 16rem;
+  height: 10rem;
   }
   
 }
@@ -380,39 +418,3 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-/* Gallery */
-.cards {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  width: 100%;
-  list-style: none;
-  transform: translateY(-50%) translateX(-51.5%);
-  margin-top: 15%;
-}
-
-.cards li {
-  position: relative;
-  vertical-align: middle;
-  display: inline-block;
-  width: 16rem;
-  height: 9rem;
-  transition-duration: .5s;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.cards li .card-content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center top;
-}
-
-.cards li:hover {
-  transition-delay: .5s;
-  width: 30rem;
-  height: 18rem;
-}
