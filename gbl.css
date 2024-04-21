@@ -290,7 +290,7 @@ footer{
     margin-top: 10%;
   }
   .cards {
-    transform: translateY(-40%) translateX(-57%);
+    transform: translateY(-25%) translateX(-55%);
   }
   
   .cards li {
